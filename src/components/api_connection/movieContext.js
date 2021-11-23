@@ -29,7 +29,7 @@ export const MovieProvider = (props) => {
   };
 
   // rows
-  async function fetchData(item) {
+  async function fetchMovies(item) {
     const request = await axios.get(item);
     setRowMovies(request.data.results);
     return request;
@@ -51,7 +51,7 @@ export const MovieProvider = (props) => {
         setErrMsg,
         bannerMovies,
         rowMovies,
-        fetchData,
+        fetchMovies,
       }}
     >
       {props.children}
