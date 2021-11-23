@@ -8,4 +8,4 @@ here you can see the live version of the app 👉 https://movie-app-463cf.web.ap
 
 ### made uding 
 
-[![javascript](./src/javascript.svg)](https://badges.aleen42.com/src/javascript.svg)
+![javascript](https://img.shields.io/badge/%20%20JavaScript-%20%20%20%20730L-f1e05a.svg)
