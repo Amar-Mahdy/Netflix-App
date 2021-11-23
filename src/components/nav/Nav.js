@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { useNavigate } from "react-router";
 import "./Nav.css";
+import { AiFillBell } from "react-icons/ai";
+import { FaSearch } from "react-icons/fa";
 
 function Nav() {
   const navigate = useNavigate();
@@ -25,6 +27,13 @@ function Nav() {
           src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
           alt=""
         />
+        <div className="right">
+          <FaSearch className="search" />
+
+          <span>Kids</span>
+          <AiFillBell className="bell" />
+        </div>
+
         <img
           onClick={() => navigate("/profile")}
           className="nav_avatar"

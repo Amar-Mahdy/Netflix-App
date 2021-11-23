@@ -11,6 +11,7 @@
   overflow-x: scroll;
   padding: 20px;
 }
+
 .row_posters::-webkit-scrollbar {
   display: none;
 }
@@ -21,13 +22,13 @@
   transition: transform 450ms;
 }
 .row_poster:hover {
-  transform: scale(1.08);
+  transform: scale(1.2);
   opacity: 1;
 }
 .row_posterLarge {
   max-height: 250px;
 }
 .row_posterLarge:hover {
-  transform: scale(1.09);
+  transform: scale(1.2);
   opacity: 1;
 }

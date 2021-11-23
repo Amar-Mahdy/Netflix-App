@@ -1,15 +1,19 @@
-import React, { useContext, useEffect } from "react";
+import React, { useState, useEffect } from "react";
+import axios from "../api_connection/axios";
 import "./Row.css";
-import { movieContext } from "../api_connection/movieContext";
 
 function Row({ title, fetchUrl, isLargeRow = false }) {
-  const { fetchMovies, rowMovies } = useContext(movieContext);
+  const [rowMovies, setRowMovies] = useState([]);
   const img_base_url = "https://image.tmdb.org/t/p/original";
 
   useEffect(() => {
-    fetchMovies(fetchUrl);
+    async function fetchData() {
+      const request = await axios.get(fetchUrl);
+      setRowMovies(request.data.results);
+      return request;
+    }
+    fetchData();
   }, [fetchUrl]);
-
   return (
     <div className="row">
       <h2 className="row_title">{title}</h2>
