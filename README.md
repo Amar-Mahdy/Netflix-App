@@ -8,4 +8,4 @@ here you can see the live version of the app 👉 https://movie-app-463cf.web.ap
 
 ### made uding 
 
-[![react](https://github.com/ikatyang/emoji-cheat-sheet/workflows/Up%20to%20Date/badge.svg)](https://github.com/ikatyang/emoji-cheat-sheet/actions?query=workflow%3A%22Up+to+Date%22)
+[![javascript](./src/javascript.svg)](https://badges.aleen42.com/src/javascript.svg)
