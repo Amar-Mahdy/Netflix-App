@@ -8,6 +8,6 @@ here you can see the live version of the app 👉 https://movie-app-463cf.web.ap
 
 ### made uding 
 
-<h3>Javascript <h3/>
-<h3>React <h3/>
-<h3>Redux <h3/>
+<h3>Javascript <h3/> <br/>
+<h3>React <h3/> <br/>
+<h3>Redux <h3/> <br/>
