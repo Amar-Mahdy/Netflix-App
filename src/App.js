@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { auth } from "./firebase";
 import { useDispatch,useSelector } from "react-redux";
 import { logout, login, selectUser } from "./features/userSlice";
+import { MovieProvider} from "./components/api_connection/movieContext";
 
 function App() {
   const user = useSelector(selectUser);
@@ -28,6 +29,7 @@ function App() {
   }, [dispatch]);
   return (
     <div className="App">
+     <MovieProvider>
       <Router>
         {!user ? (
           <Login />
@@ -38,6 +40,7 @@ function App() {
           </Routes>
         )}
       </Router>
+      </MovieProvider>
     </div>
   );
 }

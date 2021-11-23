@@ -4,7 +4,7 @@ import "./Row.css";
 
 function Row({ title, fetchUrl, isLargeRow = false }) {
   const [rowMovies, setRowMovies] = useState([]);
-  const base_url = "https://image.tmdb.org/t/p/original";
+  const img_base_url = "https://image.tmdb.org/t/p/original";
 
   useEffect(() => {
     async function fetchData() {
@@ -14,7 +14,6 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
     }
     fetchData();
   }, [fetchUrl]);
-  console.log(rowMovies);
   return (
     <div className="row">
       <h2 className="row_title">{title}</h2>
@@ -24,8 +23,9 @@ function Row({ title, fetchUrl, isLargeRow = false }) {
             ((isLargeRow && movie.poster_path) ||
               (!isLargeRow && movie.backdrop_path)) && (
               <img
+              key={movie.id}
                 className={`row_poster ${isLargeRow && "row_posterLarge"}`}
-                src={`${base_url}${
+                src={`${img_base_url}${
                   isLargeRow ? movie.poster_path : movie.backdrop_path
                 }`}
                 alt={movie.name}
