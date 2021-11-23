@@ -10,7 +10,7 @@ this is an application using an Api to fetch data about filems and shwing this d
 
 <img src="https://camo.githubusercontent.com/a221fd45becada62d870e0cfc3a8ab420586ba0c32f8980515b2b1e7a6c248b2/68747470733a2f2f692e696d6775722e636f6d2f44674f4279556f2e706e67" alt="#">
 
-### made uding 
+### made using 
 
 <h4>Javascript <h4/> 
 <h4>React <h4/> 
