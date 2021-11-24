@@ -16,7 +16,4 @@ fill the login form with any email and password then press sign up it will be sa
 
 ### made using 
 
-<h4>Javascript <h4/> 
-<h4>React <h4/> 
-<h4>Redux <h4/> 
-<h4>context Api <h4/>
+Javascript ,React ,Redux ,context Api, firebase
