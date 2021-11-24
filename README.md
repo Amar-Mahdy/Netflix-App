@@ -4,7 +4,7 @@ here you can see the live version of the app 👉 https://movie-app-463cf.web.ap
 
 ### About 
 
-this is an application using an Api to fetch data about filems and shwing this data in ordered way according to the genres of each films mimicking netflix app
+this is an application using an Api to fetch data about filems and showing this data in ordered way according to the genres of each films mimicking netflix app
 
 ### How to demo the App?
 
