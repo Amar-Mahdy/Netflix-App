@@ -16,4 +16,4 @@ fill the login form with any email and password then press sign up it will be sa
 
 ### made using 
 
-Javascript ,React ,Redux ,context Api, firebase
+Javascript ,React ,Redux, firebase
